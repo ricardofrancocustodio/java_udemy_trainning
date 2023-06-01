@@ -44,7 +44,7 @@ public class TransposeMatrix {
 
         for (int i = 0; i < columns ; i++) {
             for (int j = 0; j < lines  ; j++) {
-                matrixTransposed[i][j] = tempResult.get(count);
+                matrixTransposed[j][i] = tempResult.get(count);
                 count++;
 
             }
